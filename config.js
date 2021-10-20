@@ -4,7 +4,7 @@ const CONFIG = {
     introDesc: `Chúc bạn có một ngày 20/10 vui vẻ nha!
     Chúc luôn những người bên cạnh bạn được hạnh phúc.
     Sau ngày có gặp lại tui thì nhớ cười cái nhé! hihi.`,
-    btnIntro: '^^HiHi^^',
+    btnIntro: '^^Thử bấm đi biết đâu có quà!^^',
     title: 'Chơi một trò game show nhẹ nhẹ hỉ !!Bà có thích được chúc như này không !🥰',
     desc: '',
     btnYes: 'Thích lắm <33',
