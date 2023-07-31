@@ -32,21 +32,20 @@ function firstQuestion() {
     Swal.fire({
         title: CONFIG.introTitle,
         text: CONFIG.introDesc,
-        imageUrl: 'img/chucmung.gif',
+        imageUrl: 'img/logi.gif',
         imageWidth: 300,
         imageHeight: 300,
-        background: '#fff url("img/iput-bg.jpg")',
+        background: '#FF0000 url("img/bg.webp")',
         imageAlt: 'Custom image',
         confirmButtonText: CONFIG.btnIntro
     }).then(function() {
-        $('.content').show(200);
+        $('.content').show(300);
     })
 }
 
 // switch button position
 function switchButton() {
-    var audio = new Audio('sound/duck.mp3');
-    audio.play();
+    
     var leftNo = $('#no').css("left");
     var topNO = $('#no').css("top");
     var leftY = $('#yes').css("left");
@@ -106,7 +105,7 @@ function textGenerate() {
 
 // show popup
 $('#yes').click(function() {
-    var audio = new Audio('sound/music.mp3');
+    var audio = new Audio('sound/emm.mp3');
     audio.play();
     Swal.fire({
         title: CONFIG.question,
@@ -117,7 +116,7 @@ $('#yes').click(function() {
         background: '#fff url("img/iput-bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
-              url("img/hihi.gif")
+              url("img/giphy2.gif")
               left top
               no-repeat
             `,
