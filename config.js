@@ -7,7 +7,7 @@ const CONFIG = {
     btnIntro: '^^Có quà đó đừng bấm!^^',
     title: 'Muốn nhận quà thì hết giận đi cái đã, đố em bấm được không !🥰',
     desc: '',
-    btnYes: 'Em hết giận a rồi!',
+    btnYes: 'Hết giận sơ sơ!',
     btnNo: 'Không nha :3',
     question: 'HAHA, sao em thắng được anh :)))) !',
     btnReply: 'Chưa xong, nhắn gì đó vào đây đã! Gõ đại đi a biết em thích gì!<3',
